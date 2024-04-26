@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(223, 223, 223);
+}
+.center {
+    margin: auto;
+}
+#squareContainer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 800px;
+    height:800px;
+    margin-top: 60px;
+}
+.square {
+    background-color: rgb(99, 99, 99);
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+}
+.lightMode {
+    background-color: rgb(173, 173, 173);
+}
